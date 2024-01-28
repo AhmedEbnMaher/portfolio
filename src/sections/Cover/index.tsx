@@ -16,7 +16,7 @@ const Cover = () => {
               <h1 className="text-7xl text-white"> Hello !</h1>
               <h1 className="text-7xl text-white font-bold mt-3">
                 {" "}
-                <span className="text-7xl font-normal">I'm</span> AhMed MaHer
+                <span className="text-7xl font-normal">I am</span> AhMed MaHer
               </h1>
               <div className="flex">
                 <h1 className="text-white text-2xl mt-5">Frontend Developer</h1>

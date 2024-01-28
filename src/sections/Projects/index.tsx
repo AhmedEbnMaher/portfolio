@@ -77,7 +77,10 @@ const Projects = () => {
         </div>
         <div className="grid  grid-cols-3 gap-8 w-full">
           {Project.map((project: any) => (
-            <div className="bg-[#303741] h-70 p-10 shadow-sm shadow-[#1DCBB2] rounded-sm">
+            <div
+              className="bg-[#303741] h-70 p-10 shadow-sm shadow-[#1DCBB2] rounded-sm"
+              key={project.name}
+            >
               <h1 className="text-[#1DCBB2] font-bold text-xl mb-3">
                 {project.name}
               </h1>
