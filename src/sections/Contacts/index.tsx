@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Contacts = () => {
   return (
-    <div className="bg-[#22252C] w-full p-10 pb-20 " id="contactme">
+    <div className="bg-[#22252C] w-full p-2 sm:p-10  pb-20 " id="contactme">
       <Container>
         <div className="flex justify-center">
           <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">

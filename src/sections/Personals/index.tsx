@@ -2,7 +2,10 @@ import Container from "@/components/Container";
 
 const Personals = () => {
   return (
-    <div className="bg-[#303741] w-full p-10 pb-40" id="personal">
+    <div
+      className="bg-[#303741] w-full p-2 pb-40  sm:p-10 sm:pb-40"
+      id="personal"
+    >
       <Container>
         <div className="flex justify-center">
           <h1 className="text-[#1DCBB2] font-bold text-2x sm:text-3xl my-20">

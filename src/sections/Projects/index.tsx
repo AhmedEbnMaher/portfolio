@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 import { Project } from "./data";
 const Projects = () => {
   return (
-    <div className="bg-[#22252C] w-full p-10 pb-20" id="projects">
+    <div className="bg-[#22252C] w-full p-2 sm:p-10 pb-20" id="projects">
       <Container>
         <div className="flex justify-center">
           <h1 className="text-[#1DCBB2] font-bold text-3xl my-20">PROJECTS</h1>

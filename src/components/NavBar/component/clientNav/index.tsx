@@ -39,7 +39,7 @@ const ClientNav = () => {
                 {menuItems.map((item: any, index: number) => (
                   <div key={item.route + index}>
                     <Link href={`${item.route}`}>
-                      <li className="cursor-pointer ">{item.title}</li>
+                      <li className="cursor-pointer">{item.title}</li>
                     </Link>
                   </div>
                 ))}

@@ -3,7 +3,7 @@ import { Work } from "@/components/Icons/Work";
 
 const Experience = () => {
   return (
-    <div className="bg-[#22252C] w-full p-10 pb-20" id="experience">
+    <div className="bg-[#22252C] w-full p-2 sm:p-10 pb-20" id="experience">
       <Container>
         <div className="flex justify-between md:justify-center ">
           <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">

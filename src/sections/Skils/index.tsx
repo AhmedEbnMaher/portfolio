@@ -3,7 +3,7 @@ import { Tools } from "@/components/Icons/Tools";
 import { skillsOne, skillsTwo } from "./data";
 const Skils = () => {
   return (
-    <div className="bg-[#303741] w-full p-10 pb-20" id="skills">
+    <div className="bg-[#303741] w-full p-2 sm:p-10 pb-20" id="skills">
       <Container>
         <div className="flex justify-between md:justify-center">
           <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">
