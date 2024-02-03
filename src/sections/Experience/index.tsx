@@ -3,17 +3,20 @@ import { Work } from "@/components/Icons/Work";
 
 const Experience = () => {
   return (
-    <div className="bg-[#22252C] w-full p-10 pb-20">
+    <div className="bg-[#22252C] w-full p-10 pb-20" id="experience">
       <Container>
-        <div className="flex justify-center">
-          <h1 className="text-[#1DCBB2] font-bold text-3xl my-20">
+        <div className="flex justify-between md:justify-center ">
+          <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">
             WORK EXPERIENCE
           </h1>
+          <div className="flex justify-center items-center md:hidden">
+            <Work />
+          </div>
         </div>
-        <div className="grid  grid-cols-3 gap-4 w-full">
-          <div className="flex justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+          <div className="flex md:justify-center items-center">
             <div>
-              <h1 className="text-[#1DCBB2] font-bold text-2xl mb-10">
+              <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
                 {" "}
                 VA-COMPUTING
               </h1>
@@ -22,7 +25,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="hidden md:flex justify-center">
             <div className="w-50 flex flex-col">
               <div className="rounded-full p-2 border-2  border-[#1DCBB2] w-50 h-50  flex justify-center items-center">
                 <Work />
@@ -36,9 +39,9 @@ const Experience = () => {
               <div className="bg-[#1DCBB2] w-7 h-7 rounded-full mx-auto" />
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex md:justify-center items-center">
             <div>
-              <h1 className="text-[#1DCBB2] font-bold text-2xl mb-10">
+              <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
                 {" "}
                 TRAVOLIC
               </h1>

@@ -6,14 +6,14 @@ import Link from "next/link";
 
 const Contacts = () => {
   return (
-    <div className="bg-[#22252C] w-full p-10 pb-20">
+    <div className="bg-[#22252C] w-full p-10 pb-20 " id="contactme">
       <Container>
         <div className="flex justify-center">
-          <h1 className="text-[#1DCBB2] font-bold text-3xl my-20">
+          <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">
             CONTACT ME
           </h1>
         </div>
-        <div className="grid  grid-cols-3 gap-4 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full">
           <div className="flex justify-center items-center">
             <div>
               <Link href={"https://wa.me/201124424195"}>

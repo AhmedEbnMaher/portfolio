@@ -6,13 +6,18 @@ const Education = () => {
   return (
     <div className="bg-[#303741] w-full p-10 pb-20">
       <Container>
-        <div className="flex justify-center">
-          <h1 className="text-[#1DCBB2] font-bold text-3xl my-20">EDUCATION</h1>
+        <div className="flex justify-between md:justify-center" id="education">
+          <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl my-20">
+            EDUCATION
+          </h1>
+          <div className="flex justify-center items-center md:hidden">
+            <Graduation />
+          </div>
         </div>
-        <div className="grid  grid-cols-3 gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
           <div className="flex justify-center items-center">
             <div>
-              <h1 className="text-[#1DCBB2] font-bold text-2xl mb-10">
+              <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
                 {" "}
                 BACHELOR DIGREE
               </h1>
@@ -23,7 +28,7 @@ const Education = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center ">
+          <div className="hidden md:flex justify-center ">
             <div className="w-50 flex flex-col">
               <div className="rounded-full p-2 border-2  border-[#1DCBB2] w-50 h-50  flex justify-center items-center">
                 <Graduation />
@@ -38,7 +43,7 @@ const Education = () => {
           </div>
           <div className="flex justify-center items-center">
             <div>
-              <h1 className="text-[#1DCBB2] font-bold text-2xl mb-10">
+              <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
                 {" "}
                 PROFESSIONAL DIPLOMA
               </h1>

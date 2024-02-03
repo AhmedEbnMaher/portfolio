@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="bg-[#22252C] p-10">
+    <div className="bg-[#22252C] p-10" id="about">
       <Container>
-        <div className="grid grid-cols-2 gap-40 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-40 py-20">
           <div className="flex justify-center items-center">
             <div className="h-52 border-4 border-[#1DCBB2] w-52">
               <Image
@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-[#1DCBB2] font-bold text-3xl mb-10">
+            <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl mb-10">
               ABOUT ME
             </h1>
             <p className="text-[#D9DCE3]">
@@ -65,7 +65,7 @@ const About = () => {
         </div>
         <div className="py-10 w-full">
           {" "}
-          <h1 className="text-[#1DCBB2] font-bold text-3xl mb-10">
+          <h1 className="text-[#1DCBB2] font-bold text-2xl md:text-3xl mb-10">
             MORE ABOUT ME
           </h1>
           <div className=" border-t-4 border-[#1DCBB2] py-10">
