@@ -1,4 +1,32 @@
 export const Project = [
+  {
+    name: "Integration-dashbord",
+    description:
+      " Dasboard for integration with all social website ",
+    tools: "Type-Script , React , Nextjs.14 , Tailwind.css ",
+    date: "May-2024",
+  },
+  {
+    name: "Profile-dashbord",
+    description:
+      " Dashboard for E2ecounty Profile ",
+    tools: "Type-Script , React , Nextjs.14 , Tailwind.css ",
+    date: "Mar-2024",
+  },
+  {
+    name: "Profile",
+    description:
+      " website for E2ecounty was profile for the company ",
+    tools: "Type-Script , React , Nextjs.14 , Tailwind.css ",
+    date: "Mar-2024",
+  },
+  {
+    name: "Booking Engine",
+    description:
+      " website for E2ecounty well-known website flights ,ticket price",
+    tools: "Type-Script , React , Nextjs.14 , Tailwind.css , Rest-API ",
+    date: "Jan-2024",
+  },
     {
       name: "New Travolic",
       description:

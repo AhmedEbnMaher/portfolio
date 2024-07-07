@@ -14,7 +14,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
-          <div className="flex md:justify-center items-center">
+          <div className="flex-col md:justify-center items-center mt-10">
             <div>
               <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
                 {" "}
@@ -24,7 +24,18 @@ const Experience = () => {
                 Jan.2021 To Dec.2021 Front-end Developer at VA-Computing Company
               </p>
             </div>
+
+            <div>
+              <h1 className="text-[#1DCBB2] font-bold text-lg md:text-2xl mb-10">
+                {" "}
+                E2E-County
+              </h1>
+              <p className="text-[#D9DCE3] mb-10">
+                Jan.2024 Senior Front-end Developer at E2E-County Company
+              </p>
+            </div>
           </div>
+
           <div className="hidden md:flex justify-center">
             <div className="w-50 flex flex-col">
               <div className="rounded-full p-2 border-2  border-[#1DCBB2] w-50 h-50  flex justify-center items-center">
